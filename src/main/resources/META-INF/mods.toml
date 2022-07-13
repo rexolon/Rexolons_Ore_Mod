@@ -1,0 +1,29 @@
+
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+[[mods]]
+modId="rexores"
+version="${file.jarVersion}"
+displayName="Rexolon's Ore Mod"
+logoFile="examplemod.png"
+credits="rexolon: everything"
+authors="rexolon"
+description='''
+Adds Ores 'n Stuff
+-rexolon
+'''
+
+[[dependencies.rexores]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.rexores]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
