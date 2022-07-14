@@ -1,5 +1,6 @@
 package io.github.rexolon.rexores;
 
+import io.github.rexolon.rexores.init.BlockInit;
 import io.github.rexolon.rexores.init.ItemInit;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -14,6 +15,7 @@ public class RexolonsOreMod {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ItemInit.ITEMS.register(eventBus);
+        BlockInit.BLOCKS.register(eventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
