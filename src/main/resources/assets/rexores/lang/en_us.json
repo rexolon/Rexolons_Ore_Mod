@@ -3,6 +3,8 @@
   "item.rexores.raw_aluminium": "Raw Aluminum",
 
   "block.rexores.aluminium_block": "Aluminum Block",
+  "block.rexores.raw_aluminium_block": "Raw Aluminum Block",
+  "block.rexores.aluminium_ore": "Aluminum Ore",
 
   "itemGroup.rexores_tab": "Rexolon's Ore Mod"
 }

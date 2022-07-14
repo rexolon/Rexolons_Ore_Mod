@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rexores:block/raw_aluminium_block"
+  }
+}

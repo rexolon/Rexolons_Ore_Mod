@@ -19,7 +19,11 @@ public class BlockInit {
 
 
     public static final RegistryObject<Block> ALUMINIUM_BLOCK = registerBlock("aluminium_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-            .strength(5.0F, 7.0F).requiresCorrectToolForDrops()), CustomCreativeModeTab.REXORES_TAB);
+            .strength(6.0F, 7.0F).requiresCorrectToolForDrops()), CustomCreativeModeTab.REXORES_TAB);
+    public static final RegistryObject<Block> RAW_ALUMINIUM_BLOCK = registerBlock("raw_aluminium_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+            .strength(5.0F, 6.0F).requiresCorrectToolForDrops()), CustomCreativeModeTab.REXORES_TAB);
+    public static final RegistryObject<Block> ALUMINIUM_ORE = registerBlock("aluminium_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+            .strength(4.0F, 5.0F).requiresCorrectToolForDrops()), CustomCreativeModeTab.REXORES_TAB);
 
 
 
