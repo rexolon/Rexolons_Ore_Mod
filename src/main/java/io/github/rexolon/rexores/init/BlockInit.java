@@ -26,7 +26,6 @@ public class BlockInit {
             .strength(4.0F, 5.0F).requiresCorrectToolForDrops()), CustomCreativeModeTab.REXORES_TAB);
 
 
-
     //Block and BlockItem Registry
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
