@@ -1,5 +1,6 @@
 package io.github.rexolon.rexores;
 
+import io.github.rexolon.rexores.init.BlockInit;
 import io.github.rexolon.rexores.init.ItemInit;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -26,6 +27,7 @@ public class RexolonsOreMod {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ItemInit.ITEMS.register(bus);
+        BlockInit.BLOCKS.register(bus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }

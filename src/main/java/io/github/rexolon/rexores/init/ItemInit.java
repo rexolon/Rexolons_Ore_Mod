@@ -11,6 +11,7 @@ import java.util.function.Supplier;
 public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, RexolonsOreMod.MOD_ID);
 
+
     public static final RegistryObject<Item> LEAD_CHUNK = register("lead_chunk", () -> new Item(new Item.Properties().tab(RexolonsOreMod.REXORES_TAB)));
 
 
