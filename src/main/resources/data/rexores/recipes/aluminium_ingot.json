@@ -1,6 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "aluminium_ingot",
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "rexores:aluminium_block"

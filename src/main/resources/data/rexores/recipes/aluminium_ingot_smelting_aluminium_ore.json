@@ -1,6 +1,5 @@
 {
   "type": "minecraft:smelting",
-  "group": "aluminium_ingot",
   "ingredient": {
       "item": "rexores:aluminium_ore"
   },
