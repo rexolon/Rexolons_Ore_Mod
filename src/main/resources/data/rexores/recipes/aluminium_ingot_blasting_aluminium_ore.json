@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "group": "aluminium_ingot",
   "ingredient": {
-      "item": "rexores:aluminium_ore"
+      "item": "forge:blocks/ores/aluminium"
   },
   "result": "rexores:aluminium_ingot",
   "experience": 2,
