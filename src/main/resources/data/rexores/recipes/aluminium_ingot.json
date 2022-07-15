@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "aluminium_ingot",
+  "ingredients": [
+    {
+      "item": "rexores:aluminium_block"
+    }
+  ],
+  "result": {
+    "item": "rexores:aluminium_ingot",
+    "count": 9
+  }
+}

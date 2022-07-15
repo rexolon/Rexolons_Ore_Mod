@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "rexores:raw_aluminium"
+    }
+  },
+  "result": {
+    "item": "rexores:raw_aluminium_block"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "ingredients": [
+    {
+      "item": "rexores:raw_aluminium_block"
+    }
+  ],
+  "result": {
+    "item": "rexores:raw_aluminium",
+    "count": 9
+  }
+}
