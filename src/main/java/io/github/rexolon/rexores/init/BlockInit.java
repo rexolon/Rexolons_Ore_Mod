@@ -24,6 +24,8 @@ public class BlockInit {
             .strength(5.0F, 6.0F).requiresCorrectToolForDrops()), CustomCreativeModeTab.REXORES_TAB);
     public static final RegistryObject<Block> ALUMINIUM_ORE = registerBlock("aluminium_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
             .strength(4.0F, 5.0F).requiresCorrectToolForDrops()), CustomCreativeModeTab.REXORES_TAB);
+    public static final RegistryObject<Block> DEEPSLATE_ALUMINIUM_ORE = registerBlock("deepslate_aluminium_ore", () -> new Block(BlockBehaviour.Properties
+            .of(Material.STONE).strength(6.0F, 9.0F).requiresCorrectToolForDrops()), CustomCreativeModeTab.REXORES_TAB);
 
 
     //Block and BlockItem Registry
