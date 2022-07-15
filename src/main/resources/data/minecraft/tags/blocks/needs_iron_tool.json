@@ -1,5 +1,8 @@
 {
   "replace": false,
   "values": [
+    "rexores:aluminium_block",
+    "rexores:raw_aluminium_block",
+    "rexores:deepslate_aluminium_ore"
   ]
 }
